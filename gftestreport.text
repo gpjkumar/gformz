@@ -1,0 +1,22 @@
+
+['Blocker', 'TEST_01_main_Page_Load - User goes to main page, page should be loaded']
+
+['Blocker', 'LOGIN PAGE -TEST_01_login_Link - User click "Login " button, should see Login in Page']
+
+['Blocker', 'SIGIN PAGE -TEST_01_sign_In_Button - User enters the user emai and password']
+Logged In Page :https://app.goformz.com/
+
+['Blocker', 'SIGNED PAGE -TEST_01_click_Templates - User clicks  the Template link']
+Dashboard Page : https://app.goformz.com/#Template
+
+['Blocker', 'SIGNED PAGE -TEST_02_click_Sample_Work_Order - User clicks  the Sample Work Oder']
+Template Page :https://app.goformz.com/#Template/edit?id=1b79244a-adc7-4412-8150-2096c47bc1a8
+
+['Blocker', 'SIGNED PAGE -TEST_03_load_Sample_Work_Order_Image - Wait for the Sample Work Oder Image Loaded']
+
+['Blocker', 'SIGNED PAGE -TEST_04_hover_More_Button - Hover the More Button']
+
+['Blocker', 'NEWWORKORDER PAGE - Test_01_load_New_Work_Order_page - The New Work Order page is Loaded']
+Sample Work Order Page : https://app.goformz.com/#Template/edit?id=1b79244a-adc7-4412-8150-2096c47bc1a8
+ 
+NewWorkOrder Page :https://app.goformz.com/editor#?fid=1b79244a-adc7-4412-8150-2096c47bc1a8
