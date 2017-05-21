@@ -247,7 +247,10 @@ if __name__ == "__main__":
 
     Suite = unittest.TestSuite([MainPageSuite,LogInPageSuite,SignInPageSuite,SignedPageSuite,NewWorkOrderPageSuite])
 
-    #unittest.TextTestRunner(verbosity=2).run(Suite)
+    unittest.TextTestRunner(verbosity=2).run(Suite)
+
+    #The following is for the HTML Report (Will not work with Python 3)
+    '''
     dateTimeStamp = time.strftime('%Y%m%d_%H_%M_%S')
     buf = file("gftestsuites" +"_" +dateTimeStamp + ".html",'wb')
     runner = HTMLTestRunner.HTMLTestRunner(
@@ -256,7 +259,7 @@ if __name__ == "__main__":
         description='Result of all Test Suites'
     )
     runner.run(Suite)
-
+    '''
 '''
 Copyright (c) 2017, Jayakumar (Jay)
 All rights reserved.
