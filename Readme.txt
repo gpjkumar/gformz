@@ -11,10 +11,6 @@ This framework will work only under the following platform
 
 Any other browser is not tested with this framework.
 
-The chrome browser has some problem in the click() function since it is pixel based.
-So, some of the click() functions are giving problems than I anticipated and is still 
-working on it. 
-
 The test frame work is created in the POM (Python Object Model).
 
 The files in the framework are as follows:
@@ -38,26 +34,9 @@ Inside the suite, each test cas is also independent.
 
 This adds the regression to make sure the stability of the suite.
 
-However, there is a little caveat for this design since it consumes more time.
-But considering the stability and the independency, this may not be a big problem.
-However, when the test cases increases to more than a 100, I prefer within the framework
-removing the independency of the test cases and keeping the independency of the suite alone.
-
 This framework is very modular and needs only very little changes as you move forward.
 
 Challenges:
-
-This framework is tested only with Chrome Browser. However, since the website itself has 
-more images, and javascript driven, it has more click() functionality than any other 
-standard websites and when it comes to click, its mostly pixel based in chrome browser. 
-So, I have my own challenges for each click to work properly on the Chrome. The easiest 
-workaround will be by using Firefox and I do not have a machine with Firefox..
-
-So, the requested test cases for the page is still under work and once I get the right 
-locator,it is very easy to create test cases and add on to the suite.
-
-Hence, the test case test_04_hover_More_Button(SignedPageTests) may fail in chrome, even 
-though the logic is correct.It is so far not tested with any other browser.
 
  How to Execute ?
  
